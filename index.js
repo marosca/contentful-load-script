@@ -4,8 +4,8 @@ import Parser from "csv-parse";
 import prat from "prat";
 
 // thor-catalog
-const ACCESS_TOKEN = "CFPAT-XXXXXXXXXXXXXXXXXXXXX";
-const SPACE_ID = "xxxxxxxxxxxxx";
+const ACCESS_TOKEN = "CFPAT-9YHFAZujRu6bZXlvTQnqCum-coi5nqT5mkwaN3FMyCY";
+const SPACE_ID = "m6duzr03r0m7";
 const CONTENT_TYPE_ID = "terminal";
 
 const client = contentful.createClient({
@@ -35,6 +35,7 @@ async function rowToEntry(space, row) {
   const id = `${row[0].trim()}`;
   const sys = { id };
   const fields = rowToFields(row);
+  console.log("***", row);
   try {
     const entry = await space
       .getEntry(id)
