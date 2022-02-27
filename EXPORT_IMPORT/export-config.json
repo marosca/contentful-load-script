@@ -1,0 +1,19 @@
+{
+  "spaceId": "kb9h35hd21h2",
+  "environmentId": "staging",
+  "managementToken": "",
+  "exportDir": "export-staging",
+  "saveFile": true,
+  "contentFile": "export.json",
+  "includeDrafts": true,
+  "includeArchived": true,
+  "skipContentModel": false,
+  "skipContent": false,
+  "skipRoles": false,
+  "skipWebhooks": false,
+  "contentOnly": false,
+  "downloadAssets": true,
+  "host": "api.contentful.com",
+  "errorLogFile": "error.log",
+  "useVerboseRenderer": false
+}

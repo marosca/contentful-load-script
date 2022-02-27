@@ -1,0 +1,7 @@
+{
+  "spaceId": "kb9h35hd21h2",
+  "environmentId": "staging",
+  "managementToken": "",
+  "contentFile": "export-staging/export.json",
+  "host": "api.contentful.com"
+}
